@@ -7,39 +7,43 @@
 </head>
 <body>
     <header>
-        <h1><center>Insert product page!</center></h1>
+        <h1>Insert product page!</h1>
         <hr>
     </header>
+    <!-- Insert product form -->
     <form>
         <div>
             <label for="c_parts">Choose Category:</label>
             <select name="category" id="c_parts">
-                <option value="filters">Filters</option>
                 <option value="brakes">Brakes</option>
-                <option value="belts">Fan Belts</option>
                 <option value="engine">Engine</option>
-                <option value="bearings">Bearing</option>
+                <option value="transmission">Transmission</option>
             </select>
+
             <br>
             <br>
             <label for="p_engine">Engine Name: </label>
-            <input type="text" id="p_engine" required>
+            <input type="text" id="p_engine" placeholder="Ex. 4DR5" required>
+            <br>
+            <br>
+            <label for="p_name">Part Name:</label>
+            <input type="text" id="p_name" placeholder="Ex. Oil Filter" required>
             <br>
             <br>
             <label for="p_no">Part No:</label>
-            <input type="text" id="p_no" required>
+            <input type="text" id="p_no" placeholder="Ex. C-503" required>
             <br>
             <br>
             <label for="p_brand">Brand Name: </label>
-            <input type="text" id="part_no" required>
+            <input type="text" id="p_brand" placeholder="Ex. Vic" required>
             <br>
             <br>
             <label for="p_details">Part Details: </label>
-            <textarea name="part_details" id="p_details"></textarea>
+            <textarea name="part_details" id="p_details" placeholder="Length (MM) 134.9 ; OD (mm), 95.3" rows="5" cols="30" ></textarea>
             <br>
             <br>
             <label for="p_supplier">Name of supplier: </label>
-            <input type="text" id="p_supplier" required>
+            <input type="text" id="p_supplier" placeholder="Ex. Yasco" required>
             <br>
             <br>
             <label for="p_supplier_date">Date Arrived: </label>
@@ -50,5 +54,6 @@
             <button type="submit">Submit</button>
         </div>
     </form>
+            <!-- End of Insert product form -->
 </body>
 </html>
