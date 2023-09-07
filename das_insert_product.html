@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Product</title>
+</head>
+<body>
+    <header>
+        <h1><center>Insert product page!</center></h1>
+        <hr>
+    </header>
+
+    <form>
+        <div>
+            <label for="c_parts">Choose Category:</label>
+            <select name="category" id="c_parts">
+                <option value="filters">Filters</option>
+                <option value="brakes">Brakes</option>
+                <option value="belts">Fan Belts</option>
+                <option value="engine">Engine</option>
+                <option value="bearings">Bearing</option>
+            </select>
+            <br>
+            <br>
+            <label for="p_engine">Engine Name: </label>
+            <input type="text" id="p_engine" required>
+            <br>
+            <br>
+            <label for="p_no">Part No:</label>
+            <input type="text" id="p_no" required>
+            <br>
+            <br>
+            <label for="p_brand">Brand Name: </label>
+            <input type="text" id="part_no" required>
+            <br>
+            <br>
+            <label for="p_name">Part Details:</label>
+            <input type="text" id="p_name" required>
+            <br>
+            <br>
+            <label for="p_details">Part Details: </label>
+            <textarea name="part_details" id="p_details"></textarea>
+            <br>
+            <br>
+            <label for="p_brand">Brand Name: </label>
+            <input type="text" id="p_brand" required>
+            <br>
+            <br>
+            <label for="p_supplier">Name of supplier: </label>
+            <input type="text" id="p_supplier" required>
+            <br>
+            <br>
+            <label for="p_supplier_date">Date Arrived: </label>
+            <input type="date" id="p_supplier_date" required>
+            <br>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
