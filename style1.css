@@ -1,0 +1,28 @@
+.login_page{
+    text-align: center;
+    margin-top: 20%;
+
+    font-size: 25px;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=password] {
+    width: 30%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+  }
+
+  .button1{
+    padding: 14px 40px;
+    margin-right: 5%;
+  }
+
+  .button2{
+    padding: 14px 40px;
+    margin-left: 5%;
+  }
