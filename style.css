@@ -28,7 +28,7 @@ li a {
 
 li a:hover {
     background-color: #dddddd;
-  }
+}
 
 .das_header{
     text-align: center;
@@ -36,4 +36,8 @@ li a:hover {
 
 .das_form{
     text-align: center;
+}
+
+.left_logout_1{
+float: right;
 }
