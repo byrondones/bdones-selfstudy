@@ -7,6 +7,7 @@
     <title>Insert Product</title>
 </head>
 <body>
+
     <header>
         <h1 class="das_form">Insert product page!</h1>
         <hr>
@@ -23,7 +24,7 @@
         <div>
             <br>
             <label for="c_parts">Choose Category:</label>
-            <select name="category" id="c_parts">
+            <select name="c_parts" id="c_parts">
                 <option value="brakes">Brakes</option>
                 <option value="engine">Engine</option>
                 <option value="transmission">Transmission</option>
@@ -41,6 +42,10 @@
             <br>
             <label for="p_price">Price:</label>
             <input type="number" id="p_price" placeholder="Ex. 550" required>
+            <br>
+            <br>
+            <label for="p_code">Price Code: </label>
+            <input type="number" id="p_code" placeholder="Ex. ADS" required>
             <br>
             <br>
             <label for="p_no">Part No:</label>
@@ -64,7 +69,7 @@
             <br>
             <br>
             <button type="reset">Reset</button>
-            <button type="submit">Submit</button>
+            <button type="submit" name="submit" id="submit" value="submit">Submit</button>
         </div>
     </form>
             <!-- End of Insert product form -->
